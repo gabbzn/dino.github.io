@@ -8,7 +8,7 @@
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
-  --pink: #e83e8c;
+  --pink: #f8d7dd;
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
@@ -6926,6 +6926,10 @@ a.close.disabled {
   background-color: #007bff !important;
 }
 
+.bg-pink {
+  background-color: #f8d7dd !important;
+}
+
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
@@ -10495,6 +10499,11 @@ h5,
   right: 0;
   z-index: 3;
   padding: 0;
+}
+
+.navbar-pink {
+  background: #f8d7dd;
+  color: #000;
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
